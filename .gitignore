@@ -4,3 +4,244 @@
 tmp
 doc
 
+# The file contains paths that should not be versioned
+#
+# Author: Hamish I A Morgan (hamish.morgan@gmail.com)
+# Version: 1.0.0
+#
+
+# ====================================================
+# Module Specific Settings
+# ====================================================
+
+# (Add project rules here)
+
+
+# ====================================================
+# Generic files to ignore
+# ====================================================
+
+*.lock
+
+## Log output
+ 
+*.log
+*.log.xml
+*.sql
+*.sqlite
+
+## Compiled binaries
+
+*.com
+*.dll
+*.exe
+*.o
+*.so
+*.so.*
+*.lib
+*.a
+*.dylib
+*.out
+*.app
+
+## Archives 
+
+# Note that it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+# ====================================================
+# Programming Languages
+# ====================================================
+
+## Java 
+
+*.class
+*.jar
+*.war
+*.ear
+
+## Python
+
+*.py[cod]
+*.egg
+*.egg-info
+pip-log.txt
+__pycache__
+
+# LaTeX
+
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo
+
+# ====================================================
+# IDEs, Editors, and Build Systems
+# ====================================================
+
+## Maven
+
+/target/
+
+## Eclipse
+
+.settings
+.metadata
+Servers
+bin
+target
+
+## SpringSource Tool Suite
+
+.springBeans
+
+## Netbeans
+
+/build/
+/dist/
+/nbproject/
+/nbproject/*
+nbbuild.xml
+nbactions.xml
+manifest.mf
+/libs/
+nb-configuration.xml
+
+## IntelliJ
+
+*.iml
+*.ipr
+*.iws
+.idea/
+/out/
+
+## SublimeText 
+
+*.sublime-workspace
+
+## Emacs
+
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+
+## Vi/m
+
+*.swp
+*.swo
+
+## Textmate
+
+*.tmproject
+*.tmproj
+tmtags
+
+## Xcode
+
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+xcuserdata
+project.xcworkspace
+
+# ====================================================
+# Operating Systems
+# ====================================================
+
+## *Nix (Linux, Unix, OS X, BSD, et al.)
+
+.*
+*~
+
+## Apple Mac OS X
+
+.DS_Store
+.DS_Store?
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+## Microsoft Windows 
+
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*.swp
+$RECYCLE.BIN/
+
+## KDE
+
+.directory
+
+
+# ====================================================
+# Other Version Control Systems
+# ====================================================
+
+## CVS
+
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+
+
+# ====================================================
+# Explicit includes (exceptions to previous rules)
+# ====================================================
+
+!.gitignore
