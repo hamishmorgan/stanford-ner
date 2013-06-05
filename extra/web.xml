@@ -57,8 +57,12 @@
 		<init-param>
 			<param-name>requestEncoding</param-name>
 			<param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
 			<param-name>responseEncoding</param-name>
 			<param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
 			<param-name>force</param-name>
 			<param-value>true</param-value>
 		</init-param>
