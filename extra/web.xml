@@ -51,4 +51,22 @@
         <url-pattern>/ner</url-pattern>
     </servlet-mapping>
 
+	<filter>
+		<filter-name>SetCharacterEncoding</filter-name>
+		<filter-class>uk.ac.susx.tag.filters.SetCharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>requestEncoding</param-name>
+			<param-value>UTF-8</param-value>
+			<param-name>responseEncoding</param-name>
+			<param-value>UTF-8</param-value>
+			<param-name>force</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+
+    <filter-mapping>
+        <filter-name>SetCharacterEncoding</filter-name>
+		<servlet-name>NERServlet</servlet-name>
+    </filter-mapping>
+
 </web-app>
